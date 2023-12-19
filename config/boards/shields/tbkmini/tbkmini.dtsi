@@ -44,13 +44,13 @@ RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)                 RC(2,6) RC(2,7) RC(2,8) 
 	};
 };
 
-
+// R2 = 18, R3 = 5, R4 = 4 , R5 = 9 
 &kscan0 {
 	row-gpios
-		= <&pro_micro_d 21 (GPIO_ACTIVE_HIGH)>
-		, <&pro_micro_d 18 (GPIO_ACTIVE_HIGH)>
+		= <&pro_micro_d 18 (GPIO_ACTIVE_HIGH)>
 		, <&pro_micro_d 5 (GPIO_ACTIVE_HIGH)>
 		, <&pro_micro_d 4 (GPIO_ACTIVE_HIGH)>
+		, <&pro_micro_d 9 (GPIO_ACTIVE_HIGH)>
 		;
 
 };
