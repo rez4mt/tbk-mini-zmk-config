@@ -44,7 +44,7 @@
 	          &kp ESC   &kp KP_MULTIPLY &kp MINUS  &kp LBRC   &kp RBRC  &kp DOLLAR         &kp EXCL   &kp AT     &kp HASH   &kp PRCNT &kp BSPC   &trans
 	          &kp LSHFT &kp PIPE        &kp EQUAL  &kp LPAR   &kp RPAR  &kp GT             &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT &kp RGUI   &trans
 	          &kp LCTRL &kp CARET       &kp UNDER  &kp LBKT   &kp RBKT  &kp AMPS           &trans     &trans     &trans     &trans    &trans     &trans
-	                                                    &kp LG(RET)   &kp LALT   &LGUI          &trans &trans &trans
+	                                                    &kp LG(RET)   &kp LALT   &kp LGUI          &trans &trans &trans
             >;
         };
     };
