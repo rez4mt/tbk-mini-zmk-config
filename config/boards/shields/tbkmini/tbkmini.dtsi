@@ -9,8 +9,13 @@
 / {
 	chosen {
 		zmk,matrix_transform = &default_transform;
+		zmk,battery = &vbatt;
 	};
 
+    vbatt: vbatt {
+        compatible = "zmk,battery-voltage-divider";
+    };
+	
 	default_transform: keymap_transform_0 {
 		compatible = "zmk,matrix-transform";
 		columns = <12>;
