@@ -10,8 +10,13 @@
 	chosen {
 		zmk,kscan = &kscan0;
 		zmk,matrix_transform = &default_transform;
+		zmk,battery = &vbatt;
 	};
 
+ 	vbatt: vbatt {
+        compatible = "zmk,battery-voltage-divider";
+    };
+	
 	kscan0: kscan {
 		compatible = "zmk,kscan-gpio-matrix";
 		label = "KSCAN";
