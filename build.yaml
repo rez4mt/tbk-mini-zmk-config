@@ -1,2 +1,2 @@
 board: [ "nice_nano" ]
-shield: [ "tbkmini_left", "tbkmini_right" ]
+shield: [ "tbkmini_left", "tbkmini_right", "settings_reset" ]
